@@ -1,7 +1,3 @@
-# DocChatter
-Your chatmate for extracting info from the document that you upload.
-
-
  ## Installation
     python packages 
         python 3.11
