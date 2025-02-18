@@ -11,9 +11,9 @@ logging.basicConfig(filename='chatbot.log', level=logging.ERROR, format='%(ascti
 class Chatbot(SupportFun):
     """     Initize LLM chatboat with hyper parameters """
 
-    def __init__(self, base_url='http://localhost:11434', temperature=0):
+    def __init__(self, model = 'llama-3.2:1b',base_url='http://localhost:11434', temperature=0):
         SupportFun.__init__(self)
-        self.llm = ChatOllama(model=st.session_state.model_name, base_url=base_url, temperature=temperature)
+        self.llm = ChatOllama(model=model, base_url=base_url, temperature=temperature)
         self.initialize_session_state()
 
     def initialize_session_state(self):
