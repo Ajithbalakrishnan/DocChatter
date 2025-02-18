@@ -2,6 +2,9 @@
 Your chatmate for extracting info from the document that you upload.
 
 
+**User Interface:**
+![Screenshot_125](images/Screenshot 2025-02-18 at 12.52.56 PM.png)
+
  ## Installation
     python packages 
         python 3.11
