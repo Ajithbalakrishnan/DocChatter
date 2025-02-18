@@ -5,7 +5,7 @@ Your chatmate for extracting info from the document that you upload.
 **User Interface:**
 
 
-![Screenshot_125](https://github.com/Ajithbalakrishnan/DocChatter/tree/main/images/Screenshot 2025-02-18 at 12.52.56 PM.png)
+![Screenshot_125](https://github.com/Ajithbalakrishnan/DocChatter/tree/main/images/ui.png)
 
  ## Installation
     python packages 
